@@ -17,11 +17,13 @@ public class App
 
         i = i.valueOf(result);
 
+        double k = Double.valueOf(i).intValue();
+
         String stg = new String();
         String string = new String(" when I'll celebrate");
         stg = " my favorite age";
         phrase = "hello joel";
-        System.out.println( phrase.charAt(3) + " " + i);
+        System.out.println( phrase.charAt(3) + " " + i + " " + k);
         System.out.print(age + stg + string);
     }
 }

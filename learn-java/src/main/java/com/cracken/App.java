@@ -12,13 +12,16 @@ public class App
         int age = 27;
         double nbre1 = 10, nbre2 = 2;
 
-        int result = (int) (nbre1 / nbre2);
+        String i = new String();
+        double result = (float) (nbre1 / nbre2);
+
+        i = i.valueOf(result);
 
         String stg = new String();
         String string = new String(" when I'll celebrate");
         stg = " my favorite age";
         phrase = "hello joel";
-        System.out.println( phrase.charAt(3) + " " + result);
+        System.out.println( phrase.charAt(3) + " " + i);
         System.out.print(age + stg + string);
     }
 }
